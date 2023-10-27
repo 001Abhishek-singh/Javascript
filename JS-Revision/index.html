@@ -1,0 +1,96 @@
+<!-- (23/09/23) in this session we are going to revise about the dom manipulation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript learning</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="event.js" defer></script>
+</head>
+<body style="background:pink;">
+    <div class="maindiv">
+        <div class="headingdiv">
+            <header class="forheader">
+                <h1 id="reg-form">Registration Form: <span style="display: none;">CODER</span></h1>
+            </header>
+        </div>
+
+        <a href="#khali-pili" class="myanchor">Check</a>
+        
+        <div class="contentdiv">
+            <form action="#" class="formstyle">
+                <label id="forname" for="001">Name</label>
+                <input type="text" name="Name" id="001" placeholder="">
+                <br>
+
+                <label for="002">Surname</label>
+                <input type="text" name="Surname" id="002" placeholder="">
+                <br>
+
+                <label for="003">Father's Name</label>
+                <input type="text" name="Father" id="003" placeholder="">
+                <br>
+
+                <label for="004">Mother's Name</label>
+                <input type="text" name="Mother" id="004" placeholder="">
+                <br>
+
+                <label for="005">Email</label>
+                <input type="text" name="Email" id="005" placeholder="">
+                <br>
+
+                <label for="006">Phone Number</label>
+                <input type="text" name="Phone" id="006" placeholder="">
+                <br>
+
+                <label for="007">Course</label>
+                <!--<input type="text" name="Course" id="007" placeholder="Course">-->
+                <select name="Course" id="007">
+                    <option class="options" value="course">Select Course</option>
+                    <option class="options" value="B.Tech">B.Tech</option>
+                    <option class="options" value="B.Sc">B.Sc</option>
+                    <option class="options" value="BCA">BCA</option>
+                    <option class="options" value="BA">BA(Integrated)</option>
+                    <option class="options" value="B.pharM">B.Pharmcy</option>
+                    <option class="options" value="Mca">MCA</option>
+                </select>
+                <br>
+
+                <label id="my-label" for="008">Department</label>
+                <input type="text" name="Dept." id="008" placeholder="">
+                <br>
+
+                <label for="009">Year</label>
+                <input type="text" name="Year" id="009" placeholder="">
+                <br>
+
+                <label for="010">University Name</label>
+                <input type="text" name="University" id="010" placeholder="">
+                <br>
+
+                <label for="011">Address</label>
+                <input type="text" name="Address" id="011" placeholder="">
+                <br>
+
+                <textarea name="Tell me about yourself" id="012" cols="50" rows="7">Tell me about yourself</textarea>
+                <br>
+
+                <p>Above mentioned details are correct and full in my knowledge,if anything will be found incorrect then strict disciplinary action would be taken against me and i am totally agree with the term and conditions of the above mentioned firm.
+                    <input type="checkbox" name="term&condition" id="013" value="Term & Condition" class="checkboxstyle">
+                </p>
+
+                <!-- <button onclick="console.log('Successfully submitted the form')">Submit</button>
+                <button onclick="myclick()" class="clickbutton">Click me</button>
+                <button class="myclickbutton">Answer</button> -->
+                <div class="all-button">
+                    <button>First button</button>
+                    <button>Second button</button>
+                    <button>Third button</button>
+                </div>
+                <button class="selectbtn">Select</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
